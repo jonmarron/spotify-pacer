@@ -1,0 +1,17 @@
+.table-row-wrapper {
+  @apply flex justify-between items-center p-4 bg-transparent hover:bg-background-dark;
+  @apply border-b-mute border-b-[1px];
+}
+
+.track-name {
+  @apply basis-3/12 text-sm font-bold ;
+}
+.album-name {
+  @apply text-sm text-text-mute basis-3/12
+}
+.artists-name {
+  @apply text-sm text-text-mute basis-3/12
+}
+.track-actions {
+  @apply basis-1/12
+}

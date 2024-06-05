@@ -1,0 +1,11 @@
+.playlist-container {
+  @apply w-full flex justify-start items-center gap-5 bg-transparent hover:bg-background-gray;
+  @apply py-3 px-3 rounded-md cursor-pointer tracking-wider;
+  @apply font-light text-ellipsis overflow-hidden;
+  p {
+    @apply overflow-hidden text-ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+}

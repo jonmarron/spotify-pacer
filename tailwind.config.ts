@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'sans': ['Red Hat Display', 'sans']
+      },
+      colors:{
+        'background-dark':'var(--anthracit-dark)',
+        'background-gray':'var(--anthracit-light)',
+        'text-mute': 'var(--gray-50)',
+        'brand' : 'var(--spotify-green)'
+      },
+      borderColor: {
+        'mute': 'var(--gray-50)',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

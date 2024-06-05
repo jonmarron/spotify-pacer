@@ -1,0 +1,12 @@
+.sidebar-wrapper {
+  @apply w-[400px] h-screen bg-background-dark p-4;
+  @apply flex flex-col justify-start items-start gap-6 font-sans;
+}
+
+.actions-container {
+  @apply flex flex-col justify-start items-start w-full;
+}
+
+.playlists-container {
+  @apply overflow-y-scroll pr-2 h-full w-full;
+}
